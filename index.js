@@ -57,7 +57,11 @@ const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
-  
+  discount:(customer)=>{
+    if(customer == 'teacher' || customer == 'student'){
+      return burger.price - burger.price * 0.25
+    } else {return burger.price - burger.price * 0.10}
+  }
 }
 
 
