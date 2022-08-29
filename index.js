@@ -33,6 +33,11 @@ Test your createMenuItems function by doing the following:
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
 
+const californiaBurrito = createMenuItem('California Burrito', 8, 'Dinner')
+const veggieBurrito = createMenuItem('Garden Burrito', 7, 'Lunch')
+const superBurrito = createMenuItem('Super Burrito', 20, 'Second Breakfast')
+console.log(californiaBurrito, veggieBurrito, superBurrito)
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
